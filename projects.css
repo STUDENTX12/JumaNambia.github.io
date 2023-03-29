@@ -1,0 +1,155 @@
+.logo img
+{
+  background-repeat: no-repeat;
+}
+body
+{
+    padding:0;
+    margin:0;
+    background-color: blanchedalmond;
+}
+.header
+{
+    background-color: cornflowerblue;
+    width:100%;
+    height:50px;
+    padding:10px 0;
+    text-align: center;
+}
+.header nav a:link
+{
+    color:black;
+    text-decoration:none;
+}
+.header nav a:hover
+{
+    color:aliceblue;
+    text-decoration: none;
+}
+.header nav a:active
+{
+  color:red;
+}
+.header ol
+{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.header nav li
+{
+    display: inline-block;
+    margin:0 auto;
+    vertical-align: middle;
+    padding:0 10px;
+}
+.heading
+{
+    text-align: center;
+    color:white;
+    background-color: black;
+    padding:10px 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.grid-item h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.grid-item a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.grid-item a:hover {
+  color: #555;
+}
+h3
+{
+    font-size: larger;
+    color:#cd201f;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    font-size: 24px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #0077B5;
+  }
+  
+  .fab {
+    display: inline-block;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: 1;
+  }
+  
+  .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .fa-youtube {
+    color: #cd201f;
+  }
+  
+  .fa-twitter {
+    color: #1da1f2;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .image-container img
+  {
+    width: 200%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+  }
+  
+  .image a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  

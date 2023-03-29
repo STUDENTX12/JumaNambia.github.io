@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Info</title>
+	<style>
+		label {
+			display: inline-block;
+			width: 150px;
+			text-align: left;
+		}
+        table,tr,td,th{
+            border:1px solid black;
+        }
+        img{
+            width:400px;
+            height:300px;
+        }
+
+	</style>
+	<i class="fa fa-heart fa-lg"aria-hidden="true"></i>
+</head>
+<body>
+	<h1>Contact Form</h1>
+
+	<form action="#" method="post" enctype="multipart/form-data">
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required><br><br>
+
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" required><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required><br><br>
+
+		<label for="file">File:</label>
+		<input type="file" id="file" name="file"><br><br>
+
+		
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address"><br><br>
+	
+		<label for="city">City:</label>
+		<input type="text" id="city" name="city"><br><br>
+	
+		<label for="state">State:</label>
+		<input type="text" id="state" name="state"><br><br>
+	
+		<label for="zip">Zip Code:</label>
+		<input type="text" id="zip" name="zip"><br><br>
+	
+		<label for="country">Country:</label>
+		<input type="text" id="country" name="country"><br><br>
+	
+		<label for="phone">Mobile Number:</label>
+		<input type="tel" id="mobile" name="mobile"><br><br>
+	
+		<input type="submit" value="Submit">
+
+		<label for="video">Enter YouTube Video Link:</label>
+		<input type="text" id="video" name="video" placeholder="https://youtu.be/">
+		<button onclick="loadVideo()">Load Video</button>
+		<br><br>
+		<iframe width="560" height="315" id="video-embed" frameborder="0" allowfullscreen></iframe>
+
+		<br><br>
+		<input type="submit" value="Submit">
+
+	</form>
+
+	<label style="display:block; text-align:left;">Audio:</label>
+	<audio controls style="display:block; text-align:left;"><source src="02 Don McLean - Castles In The Air.mp3" type="audio/mpeg">Your browser does not support this audio</audio>
+
+	<br><br>
+
+	<label for="video2">Enter YouTube Video Link:</label>
+	<input type="text" id="video2" name="video2" placeholder="https://youtu.be/">
+	<button onclick="loadVideo2()">Load Video</button>
+	<br><br>
+	<iframe width="560" height="315" id="video-embed2" frameborder="0" allowfullscreen></iframe>
+
+	<script>
+		function loadVideo() {
+			var videoUrl = document.getElementById("video").value;
+			var videoId = videoUrl.split("/").pop();
+			document.getElementById("video-embed").src = "https://www.youtube.com/embed/" + videoId;
+		}
+		
+		function loadVideo2() {
+			var videoUrl = document.getElementById("video2").value;
+			var videoId = videoUrl.split("/").pop();
+			document.getElementById("video-embed2").src = "https://www.youtube.com/embed/" + videoId;
+		}
+	</script>
+
+    <p>
+        <img src="soft.jpeg"alt="CV picture" style="float:left;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <strong>Juma Nambia George</strong><br><br>
+        <em>Student </em>at <link href="https://www.ines.ac.rw/">Ines-Ruhengeri.</link><br><br>
+        I am a web developer.I &#9829 music and reading books.
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Courses Taught</h1>
+    <ul>
+        <li>Introduction to Information Tech</li>
+        <li>Introduction to Web Development</li>
+    </ul>
+    <h1>Work Experience</h1>
+    <table>
+        <br>
+        <tr>
+            <th>Dates</th>
+            <th>Work</th>
+        </tr>
+        <tr>
+        <td>2015-2019</td>
+        <td>student at NJUST</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>A student at INES</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>SKILLS</h1>
+    <h3 style="white-space: pre-wrap;">HTML        &#9733 &#9733 &#9733 Java      &#9733</h3>
+    <h3 style="white-space: pre-wrap;">CSS         &#9733 &#9733 &#9733 Python    &#9733</h3>
+    <h3 style="white-space: pre-wrap;">JavaScript  &#9733 &#9733 React JS  &#9733</h3>
+</body>
+</html>
+

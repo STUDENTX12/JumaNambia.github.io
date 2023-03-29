@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Peas</title>
+</head>
+<body>
+    <h1 style="color:aqua">MICHEAL AND PETER</h1>
+    <p><b>Peter and Micheal are like two peas in a pod</b></p>
+    <img src="C:\Users\FLEX 5\Pictures\Saved Pictures\8_american_gods.jpg",height="400",width="400"/>
+    
+</body>
+</html>

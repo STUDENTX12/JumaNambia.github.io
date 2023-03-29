@@ -1,0 +1,200 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:lightgray;
+}
+header
+{
+    padding:10px 20px;
+    background-color: aqua;
+    text-align: center;
+}
+.first
+{
+    width:100%;
+    height:40px;
+    background-color: purple;
+    padding:10px 0;
+}
+.first a
+{
+    color:white;
+    text-decoration:none;
+}
+.first a:hover
+{
+    color:red;
+}
+.first a:visited
+{
+    background-color: pink;
+    text-decoration: underline;
+}
+.first nav ul
+{
+    list-style: none;  
+    padding:0;
+    margin:0;
+}
+.first nav li
+{
+    display:inline-block;
+    margin:0 10px;
+    vertical-align: middle;
+}
+.second
+{
+    float: left;
+    display:block;
+    width:20%;
+    height:100px;
+    background-color:rgb(0,180,0);
+}
+.second nav ul
+{   
+    list-style: none;
+    padding:0;
+    margin:0;
+    display: block;
+}
+.second nav li
+{
+    
+    vertical-align: middle;
+    padding:5px;
+}
+.second a
+{
+    text-decoration: none;
+    color:aliceblue;
+}
+.third
+{
+    
+    background-color:lightblue;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display:inline-block;
+    width:60%;
+    height:300px;
+}
+.imgstuff
+{
+    width:300px;
+    height:200px;
+    float:left;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+.fourth {
+    background-color:lightblue;
+    text-align: center;
+    width: 60%;
+    height: 180px;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.white {
+    background-color: white;
+    width: 98%;
+    margin: 0 auto;
+}
+.all
+{
+    margin-top:2cm;
+    background-color:lightblue;
+    width:60%;
+    height: 140px;
+    margin:0 auto;
+    padding:0.2cm;
+
+}
+.fifth
+{
+    background-color:cadetblue;
+    display: inline-block;
+    width:49.5%;
+    text-indent: 0.3cm;
+}
+.sixth
+{
+    color:white;
+    background-color: teal;
+    display: inline-block;
+    width: 49.5%;
+    float: right;
+    text-indent: 0.3cm;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-icons {
+    font-size: 24px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #0077B5;
+  }
+  
+  .fab {
+    display: inline-block;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: 1;
+  }
+  
+  .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .fa-youtube {
+    color: #cd201f;
+  }
+  
+  .fa-twitter {
+    color: #1da1f2;
+  }
+  .pics
+  {
+    float:right;
+    max-width:20%;
+
+  }
+.images {
+    float: right;
+    display:block;
+    width:20%;
+}
+.images img
+{
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+.lily
+{
+    width:100%;
+}
+.petal
+{
+    width:100%;
+}
+.rose
+{
+    width:100%;
+}
